@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "A bunch of useful Cypress commands with full TypeScript support.",
     "scripts": {
-        "build": "rimraf dist && tsc && tsc --build tsconfig.commonjs.json"
+        "build": "rimraf dist && tsc && tsc --build tsconfig.commonjs.json",
+		"release": "npm publish --access public"
     },
     "keywords": [
         "javascript",
